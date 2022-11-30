@@ -18,6 +18,19 @@ The full environment contains these components:
 
 Clone this repo and issue the following command to start your environment:
 
+The POCO C++ Libraries are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems.
+
+[Install POCO](https://pocoproject.org/download.html)
+
+Run the following command to build:
+```
+conan install conanfile.txt --build missing
+cd ./src
+docker build -t docker-cpp-sample .
+```
+
+The following command to start your environment:
+
 ```
 docker-compose up -d
 ```
@@ -32,17 +45,6 @@ Keycloak is used to manage users. Here you can log in with the user `admin` and 
 - Keycloak: [http://localhost:18080/auth/](http://localhost:18080/auth/)
 
 The workflow engine Zeebe is available using gRPC at `localhost:26500`.
-
-The POCO C++ Libraries are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems.
-
-[Install POCO](https://pocoproject.org/download.html)
-
-Run the following command to build
-```
-conan install conanfile.txt --build missing
-cd ./src
-docker build -t docker-cpp-sample .
-```
 
 To tear down the whole environment run the following command
 
