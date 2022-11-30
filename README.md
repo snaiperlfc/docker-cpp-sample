@@ -33,6 +33,10 @@ Keycloak is used to manage users. Here you can log in with the user `admin` and 
 
 The workflow engine Zeebe is available using gRPC at `localhost:26500`.
 
+The POCO C++ Libraries are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems.
+
+[Install POCO](https://pocoproject.org/download.html)
+
 Run the following command to build
 ```
 conan install conanfile.txt --build missing
