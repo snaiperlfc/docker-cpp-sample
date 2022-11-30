@@ -20,6 +20,8 @@ Clone this repo and issue the following command to start your environment:
 
 The POCO C++ Libraries are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems.
 
+The POCO C++ Libraries source code is on [GitHub](https://github.com/pocoproject/poco).
+
 [Install POCO](https://pocoproject.org/download.html)
 
 Run the following command to build:
