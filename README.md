@@ -33,6 +33,12 @@ Keycloak is used to manage users. Here you can log in with the user `admin` and 
 
 The workflow engine Zeebe is available using gRPC at `localhost:26500`.
 
+Run the following command to build
+```
+conan install conanfile.txt --build missing
+cd ./src
+docker build -t docker-cpp-sample .
+```
 
 To tear down the whole environment run the following command
 
